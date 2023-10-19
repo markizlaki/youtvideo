@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
+
+    <script defer src="js/index.js"></script>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
             <div class="container">
                 <div class="hero__container">
                 <a class="hero__link" href="/favorite.html">
-                    <span>Избранное</span>
+                    <span class="hero__link-text">Избранное</span>
                     <svg class="hero__icon">
                         <use xlink:href="image/sprite.svg#star-ow"></use>
                     </svg>
@@ -35,7 +37,7 @@
         <section class="search">
             <div class="container">
                 <form class="search__form">
-                    <input class="search__input" type="search">
+                    <input class="search__input" type="search" placeholder="Найти видео ...">
                     <button class="search__btn" type="submit">
                         <span>поиск</span>
                         <svg class="search__icon">
@@ -135,7 +137,7 @@
 
     <footer class="footer">
         <div class="container footer__container">
-            <a class="footer" href="/">
+            <a class="footer__link footer__link_logo" href="/">
                 <svg class="footer__logo" viewBox="0 0 360 48" role="img" aria-label="Логотип сервиса You-Tvideo">
                     <use xlink:href="/image/sprite.svg#logo-white"></use>
                 </svg>
@@ -143,10 +145,10 @@
 
             <ul class="footer__developers">
                 <li class="footer__developers-item">
-                    Designer: <a class="footer__developers-link" href="https://t.me/" target="_blank" rel="noopener">Anastasia Ilina</a>
+                    Designer: <a class="footer__link footer__link_developers" href="https://t.me/" target="_blank" rel="noopener">Anastasia Ilina</a>
                 </li>
                 <li class="footer__developers-item">
-                    Developer: <a class="footer__developers-link" href="https://t.me/" target="_blank" rel="noopener">Max Pog</a>
+                    Developer: <a class="footer__link footer__link_developers" href="https://t.me/" target="_blank" rel="noopener">Max Pog</a>
                 </li>
             </ul>
 
